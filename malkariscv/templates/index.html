@@ -1,59 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Malkaris's Page</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% load static %}
+{% block index %}
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<style>
-.css_input {
-color: blue;
-background-color: red;
-}
-</style>
+	<!-- карусель -->
+	{% include 'carusel.html' %}
+  	<!-- Карточки -->
+	{% include 'price.html' %}
+  	<!-- форма -->
+  	<section>
+  		<div class="container class_form">
+  			<h1 class="text-3">Оставь заявку и получи консультацию</h1>
+  			<div class="row justify-content-center">
+  			<form action="{% url 'thanks_page' %}" method="POST" style="width: 50%;">
+				{% csrf_token %}
+			  <div class="form-group row">
+			    <label for="inputEmail3" class="col-form-label">Имя</label><br>
+				  {{ form.name }}
+			    <div class="">
+			    </div>
+			  </div>
+			  <div class="form-group row">
+			    <label for="inputEmail3" class="col-form-label">Телефон</label><br>
+				  {{ form.phone }}
+			    <div class="">
+			    </div>
+			  </div>
+				<div class="form-group row">
+			    <label for="inputEmail3" class="col-form-label">Ссылка на ваш телеграм</label><br>
+				  {{ form.telegram_id }}
+			    <div class="">
+			    </div>
+			  </div>
+			  <div style="float: right;" class="form-group row">
+			      <button type="submit" class="btn btn-success">ОСТАВИТЬ ЗАЯВКУ</button>
+			  </div>
+			</form>
+			</div>
+  		</div>
+  	</section>
 
-<form action="{% url 'thanks_page' %}" method="POST">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Отправить</button>
-</form>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
-{% if object_list %}
-<table border="3">
-    <tr>
-        <th>Id</th>
-        <th>Дата</th>
-        <th>Имя</th>
-        <th>Телефон</th>
-    </tr>
-{% for object in object_list %}
-    <tr>
-        <th>{{ object.id }}</th>
-        <th>{{ object.order_dt }}</th>
-        <th>{{ object.order_name }}</th>
-        <th>{{ object.order_phone }}</th>
-    </tr>
-{% endfor %}
-
-</table>
-{% else %}
-not found
-{% endif %}
-</body>
-</html>
+{% endblock %}
