@@ -37,3 +37,7 @@ def thanks_page(request):
                                                  'telegram_id': telegram_id})
     else:
         return render(request, './thanks.html')
+
+
+def about(request):
+    return render(request, './about.html')

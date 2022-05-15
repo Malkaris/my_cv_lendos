@@ -20,6 +20,7 @@ class OrderAdm(admin.ModelAdmin):
     readonly_fields = ('id', 'order_dt')
     #поле класса коммент
     inlines = [Comment,]
+
 admin.site.register(Order, OrderAdm)
 admin.site.register(StatusCrm)
 admin.site.register(CommentCrm)
