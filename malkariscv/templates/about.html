@@ -3,5 +3,7 @@
 
 {% block about %}
 	<CENTER><h1>About Page</h1></CENTER>
-
+	{% for lst in list_about %}
+<h2> {{ lst }} </h2>
+	{% endfor %}
 {% endblock %}

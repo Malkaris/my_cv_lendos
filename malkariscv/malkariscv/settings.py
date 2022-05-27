@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 import os.path
 from pathlib import Path
+from secret import *
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-)-sdw9b(9go^bz*r=4cjfogo9vd-bq7d7$2r31+oyy)rw380t2'
+SECRET_KEY = SECRET_key
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -40,7 +41,7 @@ INSTALLED_APPS = [
     'crm.apps.CrmConfig',
     'cms.apps.CmsConfig',
     'price.apps.PriceConfig',
-    'telebot.apps.TelebotConfig'
+    'telebot.apps.TelebotConfig',
 
 ]
 

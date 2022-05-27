@@ -1,9 +1,10 @@
 from django.shortcuts import render
-from .models import Order
+from .models import Order, AboutSettings
 from .forms import OrderForm
 from cms.models import CmsSlider
 from price.models import PriceTable, PriceCard
 from telebot.sendmessage import sendTelegram
+
 
 
 # Create your views here.
@@ -40,4 +41,6 @@ def thanks_page(request):
 
 
 def about(request):
-    return render(request, './about.html')
+    list_about = AboutSettings.objects.all()
+
+    return render(request, './about.html', {'list_about': list_about})

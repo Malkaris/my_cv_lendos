@@ -1,11 +1,13 @@
 from django.contrib import admin
-from .models import Order, StatusCrm, CommentCrm
+from .models import Order, StatusCrm, CommentCrm, AboutSettings
 # Register your models here.
 class Comment(admin.StackedInline):
     model = CommentCrm
     fields = ('comment_dt', 'comment_text', )
     readonly_fields = ('comment_dt',)
     extra = 0
+
+
 
 
 class OrderAdm(admin.ModelAdmin):
@@ -24,3 +26,4 @@ class OrderAdm(admin.ModelAdmin):
 admin.site.register(Order, OrderAdm)
 admin.site.register(StatusCrm)
 admin.site.register(CommentCrm)
+admin.site.register(AboutSettings)

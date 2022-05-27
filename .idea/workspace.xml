@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82fa4bed-0b3c-49ea-ab54-03b9f294d6bd" name="Changes" comment="project dev version">
+    <list default="true" id="82fa4bed-0b3c-49ea-ab54-03b9f294d6bd" name="Changes" comment="add about page and links">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/malkariscv/cms/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/malkariscv/cms/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/malkariscv/crm/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/malkariscv/crm/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/malkariscv/crm/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/malkariscv/crm/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/malkariscv/crm/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/malkariscv/crm/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/malkariscv/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/malkariscv/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/malkariscv/malkariscv/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/malkariscv/malkariscv/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/malkariscv/malkariscv/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/malkariscv/malkariscv/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/malkariscv/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/malkariscv/templates/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/malkariscv/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/malkariscv/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/malkariscv/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/malkariscv/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/malkariscv/templates/thanks.html" beforeDir="false" afterPath="$PROJECT_DIR$/malkariscv/templates/thanks.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -51,7 +54,7 @@
       <recent name="$PROJECT_DIR$/malkariscv/telebot" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tests">
+  <component name="RunManager" selected="Python.tests (2)">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="my_cv_lendos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,6 +97,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tests (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_cv_lendos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/malkariscv/cms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/malkariscv/cms/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_cv_lendos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/malkariscv/crm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/malkariscv/crm/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="my_cv_lendos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,6 +162,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tests (2)" />
+        <item itemvalue="Python.tests (1)" />
         <item itemvalue="Python.tests" />
         <item itemvalue="Python.sendmessage" />
       </list>
@@ -145,7 +192,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652481091779</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add about page and links">
+      <created>1652651945257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652651945257</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add about page and links">
+      <created>1652652057783</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652652057783</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,7 +222,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project dev version" />
-    <option name="LAST_COMMIT_MESSAGE" value="project dev version" />
+    <MESSAGE value="add about page and links" />
+    <option name="LAST_COMMIT_MESSAGE" value="add about page and links" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
