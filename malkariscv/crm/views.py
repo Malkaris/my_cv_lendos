@@ -41,10 +41,6 @@ def thanks_page(request):
 
 
 def about(request):
-    list_about_title1 = AboutSettings.objects.get(pk=1)
-    list_about_title2 = AboutSettings.objects.get(pk=2)
-    list_about_title3 = AboutSettings.objects.get(pk=3)
-    dict_about = {'list_about_title1': list_about_title1,
-                  'list_about_title2': list_about_title2,
-                  'list_about_title3': list_about_title3}
+    list_about = AboutSettings.objects.all()
+    dict_about = {'list_about': list_about}
     return render(request, './about.html', dict_about)

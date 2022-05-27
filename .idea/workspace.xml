@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82fa4bed-0b3c-49ea-ab54-03b9f294d6bd" name="Changes" comment="update about page">
+    <list default="true" id="82fa4bed-0b3c-49ea-ab54-03b9f294d6bd" name="Changes" comment="update about page2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/malkariscv/crm/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/malkariscv/crm/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/malkariscv/crm/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/malkariscv/crm/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/malkariscv/malkariscv/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/malkariscv/malkariscv/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/malkariscv/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/malkariscv/templates/about.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -208,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653658821741</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update about page2">
+      <created>1653661669312</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653661669312</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,7 +231,8 @@
     <MESSAGE value="project dev version" />
     <MESSAGE value="add about page and links" />
     <MESSAGE value="update about page" />
-    <option name="LAST_COMMIT_MESSAGE" value="update about page" />
+    <MESSAGE value="update about page2" />
+    <option name="LAST_COMMIT_MESSAGE" value="update about page2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
