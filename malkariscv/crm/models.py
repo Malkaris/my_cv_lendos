@@ -17,7 +17,7 @@ class AboutSettings(models.Model):
     about_text = models.TextField(verbose_name='Текст абзаца')
 
     def __str__(self):
-        return self.about_title
+        return self.about_text
 
     class Meta:
         verbose_name = 'Страничка обо мне'
