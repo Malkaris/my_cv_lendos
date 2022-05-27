@@ -42,5 +42,5 @@ def thanks_page(request):
 
 def about(request):
     list_about = AboutSettings.objects.all()
-    dict_about = {'list_about': list_about}
-    return render(request, './about.html', dict_about)
+
+    return render(request, './about.html', {'list_about': list_about})

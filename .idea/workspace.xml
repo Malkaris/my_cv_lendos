@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82fa4bed-0b3c-49ea-ab54-03b9f294d6bd" name="Changes" comment="update about page2">
+    <list default="true" id="82fa4bed-0b3c-49ea-ab54-03b9f294d6bd" name="Changes" comment="settings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/malkariscv/crm/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/malkariscv/crm/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/malkariscv/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/malkariscv/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/malkariscv/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/malkariscv/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653661669312</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="settings">
+      <created>1653662699485</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653662699485</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,7 +240,8 @@
     <MESSAGE value="add about page and links" />
     <MESSAGE value="update about page" />
     <MESSAGE value="update about page2" />
-    <option name="LAST_COMMIT_MESSAGE" value="update about page2" />
+    <MESSAGE value="settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="settings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
