@@ -7,6 +7,7 @@ from telebot.sendmessage import sendTelegram
 
 
 
+
 # Create your views here.
 def first_page(request):
     slider_list = CmsSlider.objects.all()
@@ -44,3 +45,5 @@ def about(request):
     list_about = AboutSettings.objects.all()
 
     return render(request, './about.html', {'list_about': list_about})
+
+

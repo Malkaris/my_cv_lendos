@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from crm import views
 
 
@@ -25,5 +25,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.first_page),
     path('thanks/', views.thanks_page, name='thanks_page'),
-    path('about/', views.about, name='about')
+    path('about/', views.about, name='about'),
+    path('home/', include('blog.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

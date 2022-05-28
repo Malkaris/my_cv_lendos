@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'cms.apps.CmsConfig',
     'price.apps.PriceConfig',
     'telebot.apps.TelebotConfig',
+    'blog.apps.BlogConfig',
 
 ]
 
