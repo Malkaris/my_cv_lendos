@@ -16,10 +16,10 @@
 	<nav class="navbar navbar-light bg-light container">
 	  <a class="navbar-brand logo-top" href="../">
 	    <img src="{% static './img/Logo-beta.png' %}" width="80" height="40" class="d-inline-block align-top" alt="" loading="lazy">
-	    Семейный репетитор
+	  <a class="navbar-brand logo-top" ><h3>Семейный репетитор</h3>
 	  </a>
-		<a class="navbar-brand mr-4" href="{% url 'about' %}"><i class='d-inline-block align-top'></i> Информация обо мне </a>
-		<a class="navbar-brand mr-4" href="{% url 'lessons' %}"><i class='d-inline-block align-top'></i> Курс лекций </a>
+		<a class="navbar-brand mr-4" href="{% url 'about' %}"><h5>Информация обо мне</h5> </a>
+		<a class="navbar-brand mr-4" href="{% url 'lessons' %}"><h5>Курс лекций </h5></a>
 
 
 	  <div class="contact-top">
@@ -37,21 +37,14 @@
       			</div>
 	</nav>
 
-{% block index %}
 
-{% endblock %}
+{% block index %} {% endblock %}
 
-{% block thanks %}
+{% block thanks %} {% endblock %}
 
-{% endblock %}
+{% block about %} {% endblock %}
 
-{% block about %}
-
-{% endblock %}
-
-{% block lessons %}
-
-{% endblock %}
+{% block lessons %} {% endblock %}
 
     	<footer>
   		<div class="container">
