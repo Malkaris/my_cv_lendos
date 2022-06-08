@@ -18,6 +18,9 @@
 	    <img src="{% static './img/Logo-beta.png' %}" width="80" height="40" class="d-inline-block align-top" alt="" loading="lazy">
 	    Семейный репетитор
 	  </a>
+		<a class="navbar-brand mr-4" href="{% url 'about' %}"><i class='d-inline-block align-top'></i> Информация обо мне </a>
+		<a class="navbar-brand mr-4" href="{% url 'lessons' %}"><i class='d-inline-block align-top'></i> Курс лекций </a>
+
 
 	  <div class="contact-top">
 	                <a class="facebook-number" href="https://facebook.com/">
@@ -46,7 +49,7 @@
 
 {% endblock %}
 
-{% block home %}
+{% block lessons %}
 
 {% endblock %}
 

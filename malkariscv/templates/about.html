@@ -2,18 +2,8 @@
 {% load static %}
 
 {% block about %}
-	<CENTER><h1>About Page</h1></CENTER>
-
-
-
 {% for list in list_about %}
 <h2> {{ list.about_title }}</h2>
 <br><h4> {{ list.about_text }}</h4></br>
-
 {% endfor %}
-
-
-<!--	{% for lst in list_about_title %}-->
-<!--<h2> {{ lst }} </h2>-->
-<!--	{% endfor %}-->
 {% endblock %}
