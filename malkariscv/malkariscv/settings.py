@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'price.apps.PriceConfig',
     'telebot.apps.TelebotConfig',
     'lessons.apps.BlogConfig',
+    'blog.apps.BlogConfig'
 
 ]
 

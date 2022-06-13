@@ -23,8 +23,9 @@ from crm import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.first_page),
+    path('', views.first_page, name='home'),
     path('thanks/', views.thanks_page, name='thanks_page'),
     path('about/', views.about, name='about'),
     path('lessons/', include('lessons.urls')),
+    path('blog/', include('blog.urls'))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

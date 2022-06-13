@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block blog %}
+
+{% for blog in blog_list %}
+<h5> {{ blog.blog_title }}</h5>
+<img src="{{ blog.blog_image.url }}" width="720" height="480">
+<p> {{ blog.blot_text }}</p>
+
+{% endfor %}
+{% endblock %}
